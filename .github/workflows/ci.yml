@@ -1,6 +1,6 @@
 name: CI
 
-on: push 
+on: push
 
 permissions:
   statuses: write
@@ -14,10 +14,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      -   uses: actions/checkout@v6.0.1
+      - uses: actions/checkout@v4
 
       - name: Super-Linter
-        uses: super-linter/super-linter@v7.1.0
+        uses: github/super-linter@v6
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
