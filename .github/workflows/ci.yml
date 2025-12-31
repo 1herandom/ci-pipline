@@ -1,6 +1,11 @@
 name: CI
 
 on: push
+permissions:
+ statuses: write
+ checks: write
+ contents: read
+ pull-requests: write
 
 jobs:
   test:
