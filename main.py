@@ -1,9 +1,16 @@
-def hello():
+"""Simple greeting module."""
+
+
+def hello() -> None:
+    """Print a greeting message."""
     print("hi")
 
 
-def bye():
+def bye() -> None:
+    """Print a farewell message."""
     print("bye")
 
 
-print(hello())
+if __name__ == "__main__":
+    hello()
+    bye()
