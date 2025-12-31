@@ -1,4 +1,3 @@
-#CI-pipline 
+# CI Pipeline
 
-
-This is a trial for ci pipeline . 
+This is a trial for the CI pipeline.
