@@ -1,9 +1,7 @@
-"""Simple greeting module."""
-
 
 def hello() -> None:
     """Print a greeting message."""
-    print("hi")
+ print("hi")
 
 
 def bye() -> None:
