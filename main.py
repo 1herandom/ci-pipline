@@ -1,4 +1,3 @@
-
 def hello() -> None:
     """Print a greeting message."""
     print("hi")
